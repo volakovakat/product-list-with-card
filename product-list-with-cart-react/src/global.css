@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'RedHatText-Regular';
+  src: url('../assets/fonts/static/RedHatText-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RedHatText-Bold';
+  src: url('../assets/fonts/static/RedHatText-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RedHatText-Italic';
+  src: url('../assets/fonts/RedHatText-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RedHatText-SemiBold';
+  src: url('../assets/fonts/static/RedHatText-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  font-family: 'RedHatText-Regular', sans-serif;
+  background-color: #FCF8F6;
+  color: #260F08;
+}
+
+h1 {
+  font-family: 'RedHatText-Bold', sans-serif;
+}
